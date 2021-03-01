@@ -21,7 +21,7 @@
     "plotly.js": "^1.54.1",
     "react": "^15.6.2",
     "react-dom": "^15.6.2",
-    "three": "^0.86.0"
+    "three": "^0.125.0"
   },
   "scripts": {
     "build": "mkdir -p ./client/build && browserify ./client/js/apps/Common/Common.js ./client/js/apps/Viewer/Viewer.js  --standalone FileViewer -o ./client/build/Bundle.js -t [ babelify --presets [ env react ] ]",
