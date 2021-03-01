@@ -9,7 +9,7 @@
     "jquery": "^3.4.0",
     "pug": "^2.0.4",
     "request": "^2.81.0",
-    "three": "^0.85.2"
+    "three": "^0.125.0"
   },
   "scripts": {
     "start": "node --harmony ./index.js"
